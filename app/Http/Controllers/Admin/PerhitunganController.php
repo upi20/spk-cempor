@@ -133,7 +133,7 @@ class PerhitunganController extends Controller
 
             foreach ($hitung[$index - 1]['header'] as $i => $header) {
                 $bobot = $header['bobot'] / 100;
-                $nilai = $body['nilais'][$i]['nilai'];
+                $nilai = is_null($body['nilais'][$i]) ? 0 : $body['nilais'][$i]['nilai'];
                 $pangkat = pow($nilai, $bobot);
 
                 // jadi
