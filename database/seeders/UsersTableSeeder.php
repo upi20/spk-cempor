@@ -21,14 +21,14 @@ class UsersTableSeeder extends Seeder
         \DB::table('users')->insert(array (
             0 => 
             array (
-                'id' => '1',
+                'id' => 1,
                 'name' => 'Farhan Aziz',
                 'email' => 'azizfarhan72@gmail.com',
                 'foto' => '2023071423045849.png',
                 'username' => NULL,
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$GjjsqWoOsKZJrTNlVmBnwOn3xbU2yT/RTNLGKwyCkZMvM2Ml18hTi',
-                'active' => '1',
+                'active' => 1,
                 'two_factor_secret' => NULL,
                 'two_factor_recovery_codes' => NULL,
                 'two_factor_confirmed_at' => NULL,
@@ -40,14 +40,14 @@ class UsersTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '2',
+                'id' => 2,
                 'name' => 'Super Admin',
                 'email' => 'superadmin@gmail.com',
                 'foto' => NULL,
                 'username' => NULL,
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$Al/JwJGbpHHK/poZk0Yoo.qWl.W.TpftFXlZs11ulBpch7M/BuYPG',
-                'active' => '1',
+                'active' => 1,
                 'two_factor_secret' => NULL,
                 'two_factor_recovery_codes' => NULL,
                 'two_factor_confirmed_at' => NULL,
@@ -59,14 +59,14 @@ class UsersTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '3',
+                'id' => 3,
                 'name' => 'Bagas',
                 'email' => 'bagas@gmail.com',
                 'foto' => NULL,
                 'username' => NULL,
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$g4Rk1ln7SFTh.7fQAFSpQOiRyPK0vh4R18atVKZfB/D2xOyKjGRS2',
-                'active' => '1',
+                'active' => 1,
                 'two_factor_secret' => NULL,
                 'two_factor_recovery_codes' => NULL,
                 'two_factor_confirmed_at' => NULL,

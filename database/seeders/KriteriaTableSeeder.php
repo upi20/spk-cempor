@@ -21,8 +21,8 @@ class KriteriaTableSeeder extends Seeder
         \DB::table('kriteria')->insert(array (
             0 => 
             array (
-                'id' => '2',
-                'bobot' => '10',
+                'id' => 2,
+                'bobot' => 10,
                 'nama' => 'Kuis',
                 'slug' => 'kuis',
                 'kode' => 'C2',
@@ -31,8 +31,8 @@ class KriteriaTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '3',
-                'bobot' => '25',
+                'id' => 3,
+                'bobot' => 25,
                 'nama' => 'Budi Pekerti',
                 'slug' => 'budi-pekerti',
                 'kode' => 'C3',
@@ -41,8 +41,8 @@ class KriteriaTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '4',
-                'bobot' => '10',
+                'id' => 4,
+                'bobot' => 10,
                 'nama' => 'Keaktifan',
                 'slug' => 'keaktifan',
                 'kode' => 'C4',
@@ -51,8 +51,8 @@ class KriteriaTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => '5',
-                'bobot' => '20',
+                'id' => 5,
+                'bobot' => 20,
                 'nama' => 'Tugas',
                 'slug' => 'tugas',
                 'kode' => 'C5',
@@ -61,8 +61,8 @@ class KriteriaTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => '6',
-                'bobot' => '35',
+                'id' => 6,
+                'bobot' => 35,
                 'nama' => 'Absensi',
                 'slug' => 'absensi',
                 'kode' => 'C1',

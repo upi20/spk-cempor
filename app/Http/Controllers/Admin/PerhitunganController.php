@@ -109,7 +109,7 @@ class PerhitunganController extends Controller
 
         $hitung[$index++] = $datatable;
 
-        // 5. sortir by rank
+        // 5. 20 lolos
         $kurnagi = [];
         foreach ($sorts as $k => $v) {
             if ($k > 19) continue;
