@@ -11,10 +11,9 @@ class PerhitunganController extends Controller
     public function index(Request $request)
     {
         $saw = $this->saw($request);
-        $wp = $this->wp($request);
         $page_attr = adminBreadcumb(h_prefix());
         $view = path_view('pages.admin.perhitungan');
-        $data = compact('page_attr', 'view', 'saw', 'wp');
+        $data = compact('page_attr', 'view', 'saw');
         $data['compact'] = $data;
 
         return view($view, $data);
@@ -109,6 +108,17 @@ class PerhitunganController extends Controller
         $datatable['body'] = $sorts;
 
         $hitung[$index++] = $datatable;
+
+        // 5. sortir by rank
+        $kurnagi = [];
+        foreach ($sorts as $k => $v) {
+            if ($k > 19) continue;
+            $kurnagi[] = $v;
+        }
+
+        $datatable['body'] = $kurnagi;
+        $hitung[$index++] = $datatable;
+
         return $hitung;
     }
 
@@ -176,6 +186,16 @@ class PerhitunganController extends Controller
         $sort = $hitung[$index - 1];
         $sort['body'] =  $results;
         $hitung[$index++] = $sort;
+
+        // 5. sortir by rank
+        $kurnagi = [];
+        foreach ($results as $k => $v) {
+            $kurnagi[] = $v;
+            if ($k > 20) continue;
+        }
+
+        $new['body'] = $kurnagi;
+        $hitung[$index++] = $new;
 
         return $hitung;
     }

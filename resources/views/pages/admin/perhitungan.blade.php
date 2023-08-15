@@ -225,41 +225,24 @@
         </div>
     </div>
 
-
-    {{-- WP --}}
-    <div class="card radius-10 border-start border-0 border-4 border-primary mt-4">
-        <div class="card-body">
-            <div class="d-flex align-items-center">
-                <div>
-                    <h6 class="my-1 text-primary">
-                        Perhitungan dengan metode weight product (WP)
-                    </h6>
-                </div>
-            </div>
+    @php $datas = $saw[$index++]; @endphp
+    <div class="card card-primary card-outline mt-4">
+        <div class="card-header">
+            <h6 class="card-title">5. Yang lolos maksimal 20 peserta</h6>
         </div>
-    </div>
-
-    @php
-        $index = 0;
-        $datas = $wp[$index++];
-    @endphp
-    <div class="card mt-3">
         <div class="card-body">
-            <div class="card-title d-md-flex flex-row justify-content-between">
-                <div>
-                    <h6 class="mt-2 text-uppercase">1. Membuat matriks keputusan</h6>
-                </div>
-            </div>
             <table class="table table-striped table-hover w-100 datatable">
                 <thead>
                     <tr>
                         <th>No</th>
                         <th>Nama</th>
                         @foreach ($datas['header'] as $header)
-                            <th title="{{ $header['bobot'] }}" data-toggle="tooltip">
+                            <th title="{{ $header['bobot'] }} / 100" data-toggle="tooltip">
                                 {{ $header['nama'] }} ({{ $header['kode'] }})
                             </th>
                         @endforeach
+                        <th>Total</th>
+                        <th>Peringkat</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -269,99 +252,17 @@
                             <td>{{ $body['nama'] }}</td>
                             @foreach ($body['nilais'] as $nilai)
                                 @if ($nilai != null)
-                                    <td>
+                                    <td title="{{ $nilai['nilai_str'] }}" data-toggle="tooltip">
                                         {{ $nilai['nilai'] }}
                                     </td>
                                 @else
                                     <td title="Data Tidak Valid" data-toggle="tooltip"></td>
                                 @endif
                             @endforeach
-                        </tr>
-                    @endforeach
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    @php $datas = $wp[$index++]; @endphp
-    <div class="card mt-3">
-        <div class="card-body">
-            <div class="card-title d-md-flex flex-row justify-content-between">
-                <div>
-                    <h6 class="mt-2 text-uppercase">2. Nilai asli kriteria di pangkat bobot kriteria </h6>
-                </div>
-            </div>
-            <table class="table table-striped table-hover w-100 datatable">
-                <thead>
-                    <tr>
-                        <th>No</th>
-                        <th>Nama</th>
-                        @foreach ($datas['header'] as $header)
-                            <th title="{{ $header['bobot'] }}" data-toggle="tooltip">
-                                {{ $header['nama'] }} ({{ $header['kode'] }})
-                            </th>
-                        @endforeach
-                        <th>Jumlah</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach ($datas['body'] as $k => $b)
-                        <tr>
-                            <td>{{ $k + 1 }}</td>
-                            <td>{{ $b['nama'] }}</td>
-                            @foreach ($b['nilais'] as $k => $v)
-                                <td data-toggle="tooltip" title="{{ $v['nilai_str'] }}">
-                                    {{ $v['nilai'] }}
-                                </td>
-                            @endforeach
-                            <td data-toggle="tooltip" title="{{ $b['total_str'] }}">
-                                {{ $b['total'] }}
+                            <td title="{{ $body['total_str'] }}" data-toggle="tooltip">
+                                {{ $body['total'] }}
                             </td>
-                        </tr>
-                    @endforeach
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <th></th>
-                        <th colspan="{{ count($datas['header']) }}">Total</th>
-                        <th>{{ $datas['total'] }}</th>
-                    </tr>
-                </tfoot>
-            </table>
-        </div>
-    </div>
-
-    @php $datas = $wp[$index++]; @endphp
-    <div class="card mt-3">
-        <div class="card-body">
-            <div class="card-title d-md-flex flex-row justify-content-between">
-                <div>
-                    <h6 class="mt-2 text-uppercase">
-                        3. Nilai vektor dibagi Jumlah total
-                    </h6>
-                    <small>Nilai vektor jumlah per alternatif dibagi Jumlah total kemudian hasilnya di buat
-                        ranking
-                    </small>
-                </div>
-            </div>
-            <table class="table table-striped table-hover w-100 datatable">
-                <thead>
-                    <tr>
-                        <th>No</th>
-                        <th>Nama</th>
-                        <th>Total</th>
-                        <th>Peringkat</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach ($datas['body'] as $k => $b)
-                        <tr>
-                            <td>{{ $k + 1 }}</td>
-                            <td>{{ $b['nama'] }}</td>
-                            <td data-toggle="tooltip" title="{{ $b['total_str'] }}">
-                                {{ $b['total'] }}
-                            </td>
-                            <td>{{ $b['rank'] }}</td>
+                            <td>{{ $body['rank'] }}</td>
                         </tr>
                     @endforeach
                 </tbody>
