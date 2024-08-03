@@ -94,10 +94,10 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
 
     <!-- Dark mode-->
     <script>
-        // const templateHasDarkMode = localStorage.getItem('dark-mode') == 'true';
-        const templateHasDarkMode = true;
-        // const templateTheme = localStorage.getItem('theme');
-        const templateTheme = 'dark-theme';
+        const templateHasDarkMode = localStorage.getItem('dark-mode') == 'true';
+        const templateTheme = localStorage.getItem('theme');
+        // const templateHasDarkMode = true;
+        // const templateTheme = 'dark-theme';
         if (templateTheme !== null) {
             if (templateHasDarkMode) {
                 document.querySelector('html').setAttribute('class', 'dark-theme');

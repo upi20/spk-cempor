@@ -76,7 +76,6 @@ if (!function_exists('sidebar_menu_admin_rockeradmin')) {
             // active
             $menu->active = $menu->active || ($menu->route === $navigation);
             $active_class = $menu->active ? 'mm-active' : '';
-            $active_class_1 = $menu->active ? 'aria-expanded="true"' : '';
 
             if ($separator) {
                 // separator
@@ -90,40 +89,39 @@ if (!function_exists('sidebar_menu_admin_rockeradmin')) {
                     $active = $child->active ? 'mm-active' : '';
                     $active_1 = $child->active ? 'aria-expanded="true"' : '';
                     $child_menu .= <<<HTML
-                        <li class="$active">
-                            <a href="$child->url" $active_1><i class="bx bx-radio-circle"></i>$child->title</a>
-                        </li>
+                        <li><a class="dropdown-item $active" href="$child->url"><i class='bx bx-pie-chart-alt' ></i>$child->title</a></li>
                     HTML;
                     if ($child->active) $child_active = $child->active;
                 }
 
                 $active_1 = ($menu->active || $child_active) ? 'mm-active' : '';
-                $active_2 = ($menu->active || $child_active) ? 'aria-expanded="true"' : '';
                 $menu_body .= <<<HTML
-                    <li class="$active_1">
-                        <a href="javascript:void(0);" class="has-arrow" $active_2>
-                            <div class="parent-icon"><i class="$menu->icon"></i> </div>
-                            <div class="menu-title">$menu->title</div>
-                        </a>
-                        <ul>
-                            $child_menu
-                        </ul>
-                    </li>
+                                <li class="nav-item dropdown $active_1">
+                                    <a class="nav-link dropdown-toggle dropdown-toggle-nocaret $active_1" href="javascript:;" data-bs-toggle="dropdown">
+                                        <div class="parent-icon"><i class='bx bx-home-alt'></i>
+                                        </div>
+                                        <div class="menu-title d-flex align-items-center">$menu->title</div>
+                                        <div class="ms-auto dropy-icon"><i class='bx bx-chevron-down'></i></div>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        $child_menu
+                                    </ul>
+                                </li>
                 HTML;
             } else {
                 $menu_body .= <<<HTML
-                    <li class="$active_class">
-                        <a href="$menu->url" $active_class_1>
-                            <div class="parent-icon"><i class="$menu->icon"></i></div>
-                            <div class="menu-title">$menu->title</div>
-                        </a>
-                    </li>
+                                <li class="nav-item $active_class">
+                                    <a class="nav-link $active_class" href="$menu->url">
+                                        <div class="parent-icon"><i class='$menu->icon'></i> </div>
+                                        <div class="menu-title d-flex align-items-center">$menu->title</div>
+                                    </a>
+                                </li>
                 HTML;
             }
         }
 
         // head element
-        $menu_head = '<ul class="metismenu" id="menu">';
+        $menu_head = '<ul class="navbar-nav align-items-center flex-grow-1">';
         $menu_footer = '</ul>';
         return $menu_head . $menu_body . $menu_footer;
     }

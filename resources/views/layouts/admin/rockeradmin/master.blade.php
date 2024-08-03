@@ -84,7 +84,8 @@ $notifikasi = beTopNotification();
     <link href="{{ asset_admin('css/bootstrap.min.css', name: 'rockeradmin') }}" rel="stylesheet">
     <link href="{{ asset_admin('css/bootstrap-extended.css', name: 'rockeradmin') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link href="{{ asset_admin('css/app.css', name: 'rockeradmin') }}" rel="stylesheet">
+    {{-- <link href="{{ asset_admin('css/app.css', name: 'rockeradmin') }}" rel="stylesheet"> --}}
+    <link href="{{ asset('assets/horizontal/assets/css/app.css') }}" rel="stylesheet">
     <link href="{{ asset_admin('css/icons.css', name: 'rockeradmin') }}" rel="stylesheet">
 
     <!-- Theme Style CSS -->
@@ -99,10 +100,10 @@ $notifikasi = beTopNotification();
 
     <!-- Dark mode-->
     <script>
-        // const templateHasDarkMode = localStorage.getItem('dark-mode') == 'true';
-        const templateHasDarkMode = true;
-        // const templateTheme = localStorage.getItem('theme');
-        const templateTheme = 'dark-theme';
+        const templateHasDarkMode = localStorage.getItem('dark-mode') == 'true';
+        const templateTheme = localStorage.getItem('theme');
+        // const templateHasDarkMode = true;
+        // const templateTheme = 'dark-theme';
         if (templateTheme !== null) {
             if (templateHasDarkMode) {
                 document.querySelector('html').setAttribute('class', 'dark-theme');
@@ -121,8 +122,14 @@ $notifikasi = beTopNotification();
     @endforeach
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
-        html.dark-theme .topbar,html.dark-theme .sidebar-wrapper .sidebar-header,html.dark-theme .user-box{
+        html.dark-theme .topbar,
+        html.dark-theme .sidebar-wrapper .sidebar-header,
+        html.dark-theme .user-box {
             border: none;
+        }
+
+        .mm-active{
+            color: #0d6efd !important;
         }
     </style>
 </head>
@@ -130,12 +137,34 @@ $notifikasi = beTopNotification();
 <body>
     <input type="text" id="clipboard" style="position: fixed; top:-50px">
     <div class="wrapper">
-        @include('layouts.admin.rockeradmin.body.sidebar', [
+        {{-- @include('layouts.admin.rockeradmin.body.sidebar', [
             'page_attr' => $page_attr,
             'page_attr_navigation' => $page_attr->navigation,
-        ])
+        ]) --}}
 
         @include('layouts.admin.rockeradmin.body.header')
+
+        <div class="primary-menu">
+            <nav class="navbar navbar-expand-lg align-items-center">
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header border-bottom">
+                        <div class="d-flex align-items-center">
+                            <div class="">
+                                <img style="height: 45px"
+                                    src="{{ asset(setting_get(set_admin('app.foto_dark_landscape_mode'))) }}"
+                                    class="logo-landscape" alt="logo icon">
+                            </div>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        {!! sidebar_menu_admin_rockeradmin($page_attr->navigation) !!}
+                    </div>
+                </div>
+            </nav>
+        </div>
 
         <!--start page wrapper -->
         <div class="page-wrapper">
@@ -167,7 +196,9 @@ $notifikasi = beTopNotification();
                                         <li class="breadcrumb-item">
                                             @if (isset($breadcrumb['url']))
                                                 @php
-                                                    $url = is_array($breadcrumb['url']) ? route($breadcrumb['url'][0], $breadcrumb['url'][1]) : route($breadcrumb['url']);
+                                                    $url = is_array($breadcrumb['url'])
+                                                        ? route($breadcrumb['url'][0], $breadcrumb['url'][1])
+                                                        : route($breadcrumb['url']);
                                                 @endphp
                                                 <a href="{{ $url }}"
                                                     title="Page To {{ $breadcrumb['name'] }}">

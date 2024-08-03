@@ -2,15 +2,22 @@
 <header>
     <div class="topbar d-flex align-items-center">
         <nav class="navbar navbar-expand gap-3">
-            <div class="mobile-toggle-menu"><i class='bx bx-menu'></i>
+            <div class="topbar-logo-header d-none d-lg-flex">
+                <div class="">
+                    <img style="height: 45px" src="{{ asset(setting_get(set_admin('app.foto_dark_landscape_mode'))) }}"
+                    class="logo-landscape" alt="logo icon">
+                </div>
             </div>
+
+            <div class="mobile-toggle-menu d-block d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"><i class='bx bx-menu'></i></div>
+
             <div class="top-menu ms-auto">
-                {{-- <ul class="navbar-nav align-items-center gap-1">
-                    <li class="nav-item dark-mode d-sm-flex">
+                <ul class="navbar-nav align-items-center gap-1">
+                    {{-- <li class="nav-item dark-mode d-sm-flex">
                         <a class="nav-link dark-mode-icon" href="javascript:void(0);"><i class='bx bx-moon'></i>
                         </a>
-                    </li>
-                </ul> --}}
+                    </li> --}}
+                </ul>
             </div>
             <div class="user-box dropdown px-3">
                 <a class="d-flex align-items-center nav-link dropdown-toggle gap-3 dropdown-toggle-nocaret"
