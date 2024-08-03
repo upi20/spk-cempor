@@ -1,4 +1,4 @@
-@extends('layouts.admin.rockeradmin.master')
+@extends('layouts.admin.sbadmin.master')
 
 @section('content')
     @php
@@ -32,7 +32,7 @@
                     <tr>
                         <th>
                             <input type="checkbox" id="checkboxAll" onclick="checkBoxSetAll(this)"
-                                class="form-check-input position-relative ms-1">
+                                class="form-check-input position-relative ml-3">
                         </th>
                         <th>No</th>
                         <th>Kode</th>

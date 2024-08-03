@@ -41,7 +41,7 @@ $(document).ready(function () {
             name: 'id',
             orderable: false,
             render(data, type, full, meta) {
-                return `<input type="checkbox" id="checkbox-${data}" data-id="${data}" class="form-check-input position-relative ms-1" class="checkbox-bulk" onclick="checkBoxSet(this)">`;
+                return `<input type="checkbox" id="checkbox-${data}" data-id="${data}" class="form-check-input ml-3" class="checkbox-bulk" onclick="checkBoxSet(this)">`;
             },
         },
         {

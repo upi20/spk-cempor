@@ -1,4 +1,4 @@
-@extends('layouts.admin.rockeradmin.master')
+@extends('layouts.admin.sbadmin.master')
 
 @section('content')
     {{-- SAW --}}

@@ -9003,6 +9003,2735 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'create',
                 'data' => '{"role_id":1,"menu_id":430,"updated_at":"2024-08-03T13:34:03.000000Z","created_at":"2024-08-03T13:34:03.000000Z","id":359}',
             ),
+            498 => 
+            array (
+                'id' => 999,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:51:33',
+                'table_name' => 'import_alternatif',
+                'log_type' => 'delete',
+                'data' => '{"id":3,"nama":"Data Sidang","slug":"data-sidang","file":"20240803083344-data-sidang.xlsx","count":50,"created_at":"2024-08-03 20:33:44","updated_at":"2024-08-03 20:33:44"}',
+            ),
+            499 => 
+            array (
+                'id' => 1012,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'import_alternatif',
+                'log_type' => 'create',
+                'data' => '{"nama":"data sidang","slug":"data-sidang","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":6}',
+            ),
+        ));
+        \DB::table('logs')->insert(array (
+            0 => 
+            array (
+                'id' => 1013,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040020","nama":"Rega Ramadhani","import_id":6,"slug":"rega-ramadhani","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":154}',
+            ),
+            1 => 
+            array (
+                'id' => 1014,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":154,"kriteria_id":6,"nilai":"72","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":759}',
+            ),
+            2 => 
+            array (
+                'id' => 1015,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":154,"kriteria_id":2,"nilai":"92","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":760}',
+            ),
+            3 => 
+            array (
+                'id' => 1016,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":154,"kriteria_id":3,"nilai":"83","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":761}',
+            ),
+            4 => 
+            array (
+                'id' => 1017,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":154,"kriteria_id":4,"nilai":"70","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":762}',
+            ),
+            5 => 
+            array (
+                'id' => 1018,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":154,"kriteria_id":5,"nilai":"50","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":763}',
+            ),
+            6 => 
+            array (
+                'id' => 1019,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040021","nama":"Rossa Asy Syifa Nabila","import_id":6,"slug":"rossa-asy-syifa-nabila","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":155}',
+            ),
+            7 => 
+            array (
+                'id' => 1020,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":155,"kriteria_id":6,"nilai":"58","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":764}',
+            ),
+            8 => 
+            array (
+                'id' => 1021,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":155,"kriteria_id":2,"nilai":"63","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":765}',
+            ),
+            9 => 
+            array (
+                'id' => 1022,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":155,"kriteria_id":3,"nilai":"71","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":766}',
+            ),
+            10 => 
+            array (
+                'id' => 1023,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":155,"kriteria_id":4,"nilai":"68","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":767}',
+            ),
+            11 => 
+            array (
+                'id' => 1024,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":155,"kriteria_id":5,"nilai":"77","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":768}',
+            ),
+            12 => 
+            array (
+                'id' => 1025,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040029","nama":"Petry Andi Wibowo","import_id":6,"slug":"petry-andi-wibowo","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":156}',
+            ),
+            13 => 
+            array (
+                'id' => 1026,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":156,"kriteria_id":6,"nilai":"98","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":769}',
+            ),
+            14 => 
+            array (
+                'id' => 1027,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":156,"kriteria_id":2,"nilai":"75","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":770}',
+            ),
+            15 => 
+            array (
+                'id' => 1028,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":156,"kriteria_id":3,"nilai":"82","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":771}',
+            ),
+            16 => 
+            array (
+                'id' => 1029,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":156,"kriteria_id":4,"nilai":"65","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":772}',
+            ),
+            17 => 
+            array (
+                'id' => 1030,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":156,"kriteria_id":5,"nilai":"82","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":773}',
+            ),
+            18 => 
+            array (
+                'id' => 1031,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040037","nama":"Muhammad Akhdan Putra","import_id":6,"slug":"muhammad-akhdan-putra","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":157}',
+            ),
+            19 => 
+            array (
+                'id' => 1032,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":157,"kriteria_id":6,"nilai":"67","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":774}',
+            ),
+            20 => 
+            array (
+                'id' => 1033,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":157,"kriteria_id":2,"nilai":"85","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":775}',
+            ),
+            21 => 
+            array (
+                'id' => 1034,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":157,"kriteria_id":3,"nilai":"92","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":776}',
+            ),
+            22 => 
+            array (
+                'id' => 1035,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":157,"kriteria_id":4,"nilai":"57","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":777}',
+            ),
+            23 => 
+            array (
+                'id' => 1036,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":157,"kriteria_id":5,"nilai":"64","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":778}',
+            ),
+            24 => 
+            array (
+                'id' => 1037,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CFTG0040101","nama":"Muhammad Lutfi Hadiansyah","import_id":6,"slug":"muhammad-lutfi-hadiansyah","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":158}',
+            ),
+            25 => 
+            array (
+                'id' => 1038,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":158,"kriteria_id":6,"nilai":"84","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":779}',
+            ),
+            26 => 
+            array (
+                'id' => 1039,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":158,"kriteria_id":2,"nilai":"93","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":780}',
+            ),
+            27 => 
+            array (
+                'id' => 1040,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":158,"kriteria_id":3,"nilai":"79","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":781}',
+            ),
+            28 => 
+            array (
+                'id' => 1041,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":158,"kriteria_id":4,"nilai":"68","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":782}',
+            ),
+            29 => 
+            array (
+                'id' => 1042,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":158,"kriteria_id":5,"nilai":"65","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":783}',
+            ),
+            30 => 
+            array (
+                'id' => 1043,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040044","nama":"Agi Fahmi Firdaus","import_id":6,"slug":"agi-fahmi-firdaus","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":159}',
+            ),
+            31 => 
+            array (
+                'id' => 1044,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":159,"kriteria_id":6,"nilai":"65","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":784}',
+            ),
+            32 => 
+            array (
+                'id' => 1045,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":159,"kriteria_id":2,"nilai":"61","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":785}',
+            ),
+            33 => 
+            array (
+                'id' => 1046,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":159,"kriteria_id":3,"nilai":"83","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":786}',
+            ),
+            34 => 
+            array (
+                'id' => 1047,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":159,"kriteria_id":4,"nilai":"100","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":787}',
+            ),
+            35 => 
+            array (
+                'id' => 1048,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":159,"kriteria_id":5,"nilai":"64","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":788}',
+            ),
+            36 => 
+            array (
+                'id' => 1049,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040051","nama":"Muhammad Rafi Fauzi","import_id":6,"slug":"muhammad-rafi-fauzi","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":160}',
+            ),
+            37 => 
+            array (
+                'id' => 1050,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":160,"kriteria_id":6,"nilai":"70","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":789}',
+            ),
+            38 => 
+            array (
+                'id' => 1051,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":160,"kriteria_id":2,"nilai":"85","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":790}',
+            ),
+            39 => 
+            array (
+                'id' => 1052,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":160,"kriteria_id":3,"nilai":"69","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":791}',
+            ),
+            40 => 
+            array (
+                'id' => 1053,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":160,"kriteria_id":4,"nilai":"86","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":792}',
+            ),
+            41 => 
+            array (
+                'id' => 1054,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":160,"kriteria_id":5,"nilai":"61","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":793}',
+            ),
+            42 => 
+            array (
+                'id' => 1055,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040063","nama":"Iyel Salvia Afsah","import_id":6,"slug":"iyel-salvia-afsah","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":161}',
+            ),
+            43 => 
+            array (
+                'id' => 1056,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":161,"kriteria_id":6,"nilai":"96","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":794}',
+            ),
+            44 => 
+            array (
+                'id' => 1057,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":161,"kriteria_id":2,"nilai":"99","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":795}',
+            ),
+            45 => 
+            array (
+                'id' => 1058,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":161,"kriteria_id":3,"nilai":"89","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":796}',
+            ),
+            46 => 
+            array (
+                'id' => 1059,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":161,"kriteria_id":4,"nilai":"61","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":797}',
+            ),
+            47 => 
+            array (
+                'id' => 1060,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":161,"kriteria_id":5,"nilai":"96","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":798}',
+            ),
+            48 => 
+            array (
+                'id' => 1061,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040064","nama":"Fatmawati","import_id":6,"slug":"fatmawati","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":162}',
+            ),
+            49 => 
+            array (
+                'id' => 1062,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":162,"kriteria_id":6,"nilai":"90","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":799}',
+            ),
+            50 => 
+            array (
+                'id' => 1063,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":162,"kriteria_id":2,"nilai":"70","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":800}',
+            ),
+            51 => 
+            array (
+                'id' => 1064,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":162,"kriteria_id":3,"nilai":"73","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":801}',
+            ),
+            52 => 
+            array (
+                'id' => 1065,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":162,"kriteria_id":4,"nilai":"57","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":802}',
+            ),
+            53 => 
+            array (
+                'id' => 1066,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":162,"kriteria_id":5,"nilai":"84","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":803}',
+            ),
+            54 => 
+            array (
+                'id' => 1067,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040075","nama":"Syifa Siti Rahayu","import_id":6,"slug":"syifa-siti-rahayu","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":163}',
+            ),
+            55 => 
+            array (
+                'id' => 1068,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":163,"kriteria_id":6,"nilai":"77","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":804}',
+            ),
+            56 => 
+            array (
+                'id' => 1069,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":163,"kriteria_id":2,"nilai":"90","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":805}',
+            ),
+            57 => 
+            array (
+                'id' => 1070,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":163,"kriteria_id":3,"nilai":"64","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":806}',
+            ),
+            58 => 
+            array (
+                'id' => 1071,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":163,"kriteria_id":4,"nilai":"70","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":807}',
+            ),
+            59 => 
+            array (
+                'id' => 1072,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":163,"kriteria_id":5,"nilai":"72","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":808}',
+            ),
+            60 => 
+            array (
+                'id' => 1073,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040082","nama":"Mutia Julianti","import_id":6,"slug":"mutia-julianti","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":164}',
+            ),
+            61 => 
+            array (
+                'id' => 1074,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":164,"kriteria_id":6,"nilai":"63","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":809}',
+            ),
+            62 => 
+            array (
+                'id' => 1075,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":164,"kriteria_id":2,"nilai":"83","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":810}',
+            ),
+            63 => 
+            array (
+                'id' => 1076,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":164,"kriteria_id":3,"nilai":"63","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":811}',
+            ),
+            64 => 
+            array (
+                'id' => 1077,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":164,"kriteria_id":4,"nilai":"56","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":812}',
+            ),
+            65 => 
+            array (
+                'id' => 1078,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":164,"kriteria_id":5,"nilai":"68","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":813}',
+            ),
+            66 => 
+            array (
+                'id' => 1079,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040085","nama":"Mochamad Kautsar Dwiyana","import_id":6,"slug":"mochamad-kautsar-dwiyana","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":165}',
+            ),
+            67 => 
+            array (
+                'id' => 1080,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":165,"kriteria_id":6,"nilai":"86","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":814}',
+            ),
+            68 => 
+            array (
+                'id' => 1081,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":165,"kriteria_id":2,"nilai":"56","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":815}',
+            ),
+            69 => 
+            array (
+                'id' => 1082,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":165,"kriteria_id":3,"nilai":"68","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":816}',
+            ),
+            70 => 
+            array (
+                'id' => 1083,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":165,"kriteria_id":4,"nilai":"71","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":817}',
+            ),
+            71 => 
+            array (
+                'id' => 1084,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":165,"kriteria_id":5,"nilai":"82","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":818}',
+            ),
+            72 => 
+            array (
+                'id' => 1085,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040091","nama":"Jonathan Suryanto Christian Situmorang","import_id":6,"slug":"jonathan-suryanto-christian-situmorang","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":166}',
+            ),
+            73 => 
+            array (
+                'id' => 1086,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":166,"kriteria_id":6,"nilai":"92","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":819}',
+            ),
+            74 => 
+            array (
+                'id' => 1087,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":166,"kriteria_id":2,"nilai":"67","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":820}',
+            ),
+            75 => 
+            array (
+                'id' => 1088,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":166,"kriteria_id":3,"nilai":"75","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":821}',
+            ),
+            76 => 
+            array (
+                'id' => 1089,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":166,"kriteria_id":4,"nilai":"58","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":822}',
+            ),
+            77 => 
+            array (
+                'id' => 1090,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":166,"kriteria_id":5,"nilai":"56","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":823}',
+            ),
+            78 => 
+            array (
+                'id' => 1091,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040102","nama":"Raihan Kamal Fahreza","import_id":6,"slug":"raihan-kamal-fahreza","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":167}',
+            ),
+            79 => 
+            array (
+                'id' => 1092,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":167,"kriteria_id":6,"nilai":"83","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":824}',
+            ),
+            80 => 
+            array (
+                'id' => 1093,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":167,"kriteria_id":2,"nilai":"99","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":825}',
+            ),
+            81 => 
+            array (
+                'id' => 1094,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":167,"kriteria_id":3,"nilai":"84","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":826}',
+            ),
+            82 => 
+            array (
+                'id' => 1095,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":167,"kriteria_id":4,"nilai":"89","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":827}',
+            ),
+            83 => 
+            array (
+                'id' => 1096,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":167,"kriteria_id":5,"nilai":"84","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":828}',
+            ),
+            84 => 
+            array (
+                'id' => 1097,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040113","nama":"Adelina Nur Afifah","import_id":6,"slug":"adelina-nur-afifah","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":168}',
+            ),
+            85 => 
+            array (
+                'id' => 1098,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":168,"kriteria_id":6,"nilai":"97","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":829}',
+            ),
+            86 => 
+            array (
+                'id' => 1099,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":168,"kriteria_id":2,"nilai":"58","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":830}',
+            ),
+            87 => 
+            array (
+                'id' => 1100,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":168,"kriteria_id":3,"nilai":"80","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":831}',
+            ),
+            88 => 
+            array (
+                'id' => 1101,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":168,"kriteria_id":4,"nilai":"68","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":832}',
+            ),
+            89 => 
+            array (
+                'id' => 1102,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":168,"kriteria_id":5,"nilai":"72","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":833}',
+            ),
+            90 => 
+            array (
+                'id' => 1103,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040131","nama":"Arifin Noor Sya&#039;ban Iqbal","import_id":6,"slug":"arifin-noor-sya-039-ban-iqbal","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":169}',
+            ),
+            91 => 
+            array (
+                'id' => 1104,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":169,"kriteria_id":6,"nilai":"77","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":834}',
+            ),
+            92 => 
+            array (
+                'id' => 1105,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":169,"kriteria_id":2,"nilai":"60","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":835}',
+            ),
+            93 => 
+            array (
+                'id' => 1106,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":169,"kriteria_id":3,"nilai":"70","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":836}',
+            ),
+            94 => 
+            array (
+                'id' => 1107,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":169,"kriteria_id":4,"nilai":"73","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":837}',
+            ),
+            95 => 
+            array (
+                'id' => 1108,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":169,"kriteria_id":5,"nilai":"59","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":838}',
+            ),
+            96 => 
+            array (
+                'id' => 1109,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040152","nama":"Raja Fakhrurozi Safira","import_id":6,"slug":"raja-fakhrurozi-safira","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":170}',
+            ),
+            97 => 
+            array (
+                'id' => 1110,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":170,"kriteria_id":6,"nilai":"78","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":839}',
+            ),
+            98 => 
+            array (
+                'id' => 1111,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":170,"kriteria_id":2,"nilai":"79","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":840}',
+            ),
+            99 => 
+            array (
+                'id' => 1112,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":170,"kriteria_id":3,"nilai":"83","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":841}',
+            ),
+            100 => 
+            array (
+                'id' => 1113,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":170,"kriteria_id":4,"nilai":"57","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":842}',
+            ),
+            101 => 
+            array (
+                'id' => 1114,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":170,"kriteria_id":5,"nilai":"55","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":843}',
+            ),
+            102 => 
+            array (
+                'id' => 1115,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040154","nama":"Aghniya Yasminasari","import_id":6,"slug":"aghniya-yasminasari","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":171}',
+            ),
+            103 => 
+            array (
+                'id' => 1116,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":171,"kriteria_id":6,"nilai":"56","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":844}',
+            ),
+            104 => 
+            array (
+                'id' => 1117,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":171,"kriteria_id":2,"nilai":"94","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":845}',
+            ),
+            105 => 
+            array (
+                'id' => 1118,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":171,"kriteria_id":3,"nilai":"100","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":846}',
+            ),
+            106 => 
+            array (
+                'id' => 1119,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":171,"kriteria_id":4,"nilai":"71","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":847}',
+            ),
+            107 => 
+            array (
+                'id' => 1120,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":171,"kriteria_id":5,"nilai":"58","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":848}',
+            ),
+            108 => 
+            array (
+                'id' => 1121,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040162","nama":"Hanik Kudsiyah","import_id":6,"slug":"hanik-kudsiyah","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":172}',
+            ),
+            109 => 
+            array (
+                'id' => 1122,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":172,"kriteria_id":6,"nilai":"59","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":849}',
+            ),
+            110 => 
+            array (
+                'id' => 1123,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":172,"kriteria_id":2,"nilai":"80","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":850}',
+            ),
+            111 => 
+            array (
+                'id' => 1124,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":172,"kriteria_id":3,"nilai":"55","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":851}',
+            ),
+            112 => 
+            array (
+                'id' => 1125,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":172,"kriteria_id":4,"nilai":"62","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":852}',
+            ),
+            113 => 
+            array (
+                'id' => 1126,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":172,"kriteria_id":5,"nilai":"94","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":853}',
+            ),
+            114 => 
+            array (
+                'id' => 1127,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040166","nama":"Nurul Latifah","import_id":6,"slug":"nurul-latifah","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":173}',
+            ),
+            115 => 
+            array (
+                'id' => 1128,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":173,"kriteria_id":6,"nilai":"71","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":854}',
+            ),
+            116 => 
+            array (
+                'id' => 1129,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":173,"kriteria_id":2,"nilai":"54","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":855}',
+            ),
+            117 => 
+            array (
+                'id' => 1130,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":173,"kriteria_id":3,"nilai":"87","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":856}',
+            ),
+            118 => 
+            array (
+                'id' => 1131,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":173,"kriteria_id":4,"nilai":"74","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":857}',
+            ),
+            119 => 
+            array (
+                'id' => 1132,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":173,"kriteria_id":5,"nilai":"57","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":858}',
+            ),
+            120 => 
+            array (
+                'id' => 1133,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040038","nama":"Arwin Rizky Rivaldy","import_id":6,"slug":"arwin-rizky-rivaldy","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":174}',
+            ),
+            121 => 
+            array (
+                'id' => 1134,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":174,"kriteria_id":6,"nilai":"56","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":859}',
+            ),
+            122 => 
+            array (
+                'id' => 1135,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":174,"kriteria_id":2,"nilai":"57","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":860}',
+            ),
+            123 => 
+            array (
+                'id' => 1136,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":174,"kriteria_id":3,"nilai":"72","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":861}',
+            ),
+            124 => 
+            array (
+                'id' => 1137,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":174,"kriteria_id":4,"nilai":"72","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":862}',
+            ),
+            125 => 
+            array (
+                'id' => 1138,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":174,"kriteria_id":5,"nilai":"86","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":863}',
+            ),
+            126 => 
+            array (
+                'id' => 1139,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040087","nama":"Christian Haryanto","import_id":6,"slug":"christian-haryanto","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":175}',
+            ),
+            127 => 
+            array (
+                'id' => 1140,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":175,"kriteria_id":6,"nilai":"86","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":864}',
+            ),
+            128 => 
+            array (
+                'id' => 1141,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":175,"kriteria_id":2,"nilai":"99","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":865}',
+            ),
+            129 => 
+            array (
+                'id' => 1142,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":175,"kriteria_id":3,"nilai":"78","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":866}',
+            ),
+            130 => 
+            array (
+                'id' => 1143,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":175,"kriteria_id":4,"nilai":"65","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":867}',
+            ),
+            131 => 
+            array (
+                'id' => 1144,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":175,"kriteria_id":5,"nilai":"86","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":868}',
+            ),
+            132 => 
+            array (
+                'id' => 1145,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040116","nama":"Muhammad Ilyas Arradya","import_id":6,"slug":"muhammad-ilyas-arradya","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":176}',
+            ),
+            133 => 
+            array (
+                'id' => 1146,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":176,"kriteria_id":6,"nilai":"67","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":869}',
+            ),
+            134 => 
+            array (
+                'id' => 1147,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":176,"kriteria_id":2,"nilai":"80","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":870}',
+            ),
+            135 => 
+            array (
+                'id' => 1148,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":176,"kriteria_id":3,"nilai":"88","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":871}',
+            ),
+            136 => 
+            array (
+                'id' => 1149,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":176,"kriteria_id":4,"nilai":"59","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":872}',
+            ),
+            137 => 
+            array (
+                'id' => 1150,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":176,"kriteria_id":5,"nilai":"66","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":873}',
+            ),
+            138 => 
+            array (
+                'id' => 1151,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040120","nama":"Hafidz Fadhillah Ramadhan","import_id":6,"slug":"hafidz-fadhillah-ramadhan","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":177}',
+            ),
+            139 => 
+            array (
+                'id' => 1152,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":177,"kriteria_id":6,"nilai":"84","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":874}',
+            ),
+            140 => 
+            array (
+                'id' => 1153,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":177,"kriteria_id":2,"nilai":"71","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":875}',
+            ),
+            141 => 
+            array (
+                'id' => 1154,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":177,"kriteria_id":3,"nilai":"87","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":876}',
+            ),
+            142 => 
+            array (
+                'id' => 1155,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":177,"kriteria_id":4,"nilai":"89","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":877}',
+            ),
+            143 => 
+            array (
+                'id' => 1156,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":177,"kriteria_id":5,"nilai":"63","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":878}',
+            ),
+            144 => 
+            array (
+                'id' => 1157,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040159","nama":"Giri Primakov","import_id":6,"slug":"giri-primakov","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":178}',
+            ),
+            145 => 
+            array (
+                'id' => 1158,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":178,"kriteria_id":6,"nilai":"60","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":879}',
+            ),
+            146 => 
+            array (
+                'id' => 1159,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":178,"kriteria_id":2,"nilai":"75","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":880}',
+            ),
+            147 => 
+            array (
+                'id' => 1160,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":178,"kriteria_id":3,"nilai":"89","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":881}',
+            ),
+            148 => 
+            array (
+                'id' => 1161,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":178,"kriteria_id":4,"nilai":"59","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":882}',
+            ),
+            149 => 
+            array (
+                'id' => 1162,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":178,"kriteria_id":5,"nilai":"89","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":883}',
+            ),
+            150 => 
+            array (
+                'id' => 1163,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040045","nama":"Selsa Naufal Aprilia","import_id":6,"slug":"selsa-naufal-aprilia","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":179}',
+            ),
+            151 => 
+            array (
+                'id' => 1164,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":179,"kriteria_id":6,"nilai":"56","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":884}',
+            ),
+            152 => 
+            array (
+                'id' => 1165,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":179,"kriteria_id":2,"nilai":"90","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":885}',
+            ),
+            153 => 
+            array (
+                'id' => 1166,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":179,"kriteria_id":3,"nilai":"66","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":886}',
+            ),
+            154 => 
+            array (
+                'id' => 1167,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":179,"kriteria_id":4,"nilai":"86","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":887}',
+            ),
+            155 => 
+            array (
+                'id' => 1168,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":179,"kriteria_id":5,"nilai":"74","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":888}',
+            ),
+            156 => 
+            array (
+                'id' => 1169,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040081","nama":"Riki Ramadhan","import_id":6,"slug":"riki-ramadhan","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":180}',
+            ),
+            157 => 
+            array (
+                'id' => 1170,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":180,"kriteria_id":6,"nilai":"79","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":889}',
+            ),
+            158 => 
+            array (
+                'id' => 1171,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":180,"kriteria_id":2,"nilai":"95","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":890}',
+            ),
+            159 => 
+            array (
+                'id' => 1172,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":180,"kriteria_id":3,"nilai":"83","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":891}',
+            ),
+            160 => 
+            array (
+                'id' => 1173,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":180,"kriteria_id":4,"nilai":"54","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":892}',
+            ),
+            161 => 
+            array (
+                'id' => 1174,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":180,"kriteria_id":5,"nilai":"83","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":893}',
+            ),
+            162 => 
+            array (
+                'id' => 1175,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040088","nama":"Dean Retno Astoeti","import_id":6,"slug":"dean-retno-astoeti","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":181}',
+            ),
+            163 => 
+            array (
+                'id' => 1176,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":181,"kriteria_id":6,"nilai":"79","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":894}',
+            ),
+            164 => 
+            array (
+                'id' => 1177,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":181,"kriteria_id":2,"nilai":"91","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":895}',
+            ),
+            165 => 
+            array (
+                'id' => 1178,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":181,"kriteria_id":3,"nilai":"95","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":896}',
+            ),
+            166 => 
+            array (
+                'id' => 1179,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":181,"kriteria_id":4,"nilai":"60","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":897}',
+            ),
+            167 => 
+            array (
+                'id' => 1180,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":181,"kriteria_id":5,"nilai":"87","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":898}',
+            ),
+            168 => 
+            array (
+                'id' => 1181,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040168","nama":"Reza Aditya Asad","import_id":6,"slug":"reza-aditya-asad","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":182}',
+            ),
+            169 => 
+            array (
+                'id' => 1182,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":182,"kriteria_id":6,"nilai":"64","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":899}',
+            ),
+            170 => 
+            array (
+                'id' => 1183,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":182,"kriteria_id":2,"nilai":"54","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":900}',
+            ),
+            171 => 
+            array (
+                'id' => 1184,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":182,"kriteria_id":3,"nilai":"61","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":901}',
+            ),
+            172 => 
+            array (
+                'id' => 1185,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":182,"kriteria_id":4,"nilai":"92","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":902}',
+            ),
+            173 => 
+            array (
+                'id' => 1186,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":182,"kriteria_id":5,"nilai":"69","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":903}',
+            ),
+            174 => 
+            array (
+                'id' => 1187,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040090","nama":"Arya Nurvian Majid","import_id":6,"slug":"arya-nurvian-majid","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":183}',
+            ),
+            175 => 
+            array (
+                'id' => 1188,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":183,"kriteria_id":6,"nilai":"62","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":904}',
+            ),
+            176 => 
+            array (
+                'id' => 1189,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":183,"kriteria_id":2,"nilai":"93","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":905}',
+            ),
+            177 => 
+            array (
+                'id' => 1190,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":183,"kriteria_id":3,"nilai":"93","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":906}',
+            ),
+            178 => 
+            array (
+                'id' => 1191,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":183,"kriteria_id":4,"nilai":"84","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":907}',
+            ),
+            179 => 
+            array (
+                'id' => 1192,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":183,"kriteria_id":5,"nilai":"67","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":908}',
+            ),
+            180 => 
+            array (
+                'id' => 1193,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040022","nama":"Riezka Dianty","import_id":6,"slug":"riezka-dianty","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":184}',
+            ),
+            181 => 
+            array (
+                'id' => 1194,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":184,"kriteria_id":6,"nilai":"97","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":909}',
+            ),
+            182 => 
+            array (
+                'id' => 1195,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":184,"kriteria_id":2,"nilai":"80","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":910}',
+            ),
+            183 => 
+            array (
+                'id' => 1196,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":184,"kriteria_id":3,"nilai":"91","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":911}',
+            ),
+            184 => 
+            array (
+                'id' => 1197,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":184,"kriteria_id":4,"nilai":"58","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":912}',
+            ),
+            185 => 
+            array (
+                'id' => 1198,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":184,"kriteria_id":5,"nilai":"89","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":913}',
+            ),
+            186 => 
+            array (
+                'id' => 1199,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CFTG0040045","nama":"Shafa Nafisah Jauharah","import_id":6,"slug":"shafa-nafisah-jauharah","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":185}',
+            ),
+            187 => 
+            array (
+                'id' => 1200,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":185,"kriteria_id":6,"nilai":"64","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":914}',
+            ),
+            188 => 
+            array (
+                'id' => 1201,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":185,"kriteria_id":2,"nilai":"57","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":915}',
+            ),
+            189 => 
+            array (
+                'id' => 1202,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":185,"kriteria_id":3,"nilai":"97","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":916}',
+            ),
+            190 => 
+            array (
+                'id' => 1203,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":185,"kriteria_id":4,"nilai":"73","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":917}',
+            ),
+            191 => 
+            array (
+                'id' => 1204,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":185,"kriteria_id":5,"nilai":"54","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":918}',
+            ),
+            192 => 
+            array (
+                'id' => 1205,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040169","nama":"Bobi Nur Mulyana","import_id":6,"slug":"bobi-nur-mulyana","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":186}',
+            ),
+            193 => 
+            array (
+                'id' => 1206,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":186,"kriteria_id":6,"nilai":"95","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":919}',
+            ),
+            194 => 
+            array (
+                'id' => 1207,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":186,"kriteria_id":2,"nilai":"70","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":920}',
+            ),
+            195 => 
+            array (
+                'id' => 1208,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":186,"kriteria_id":3,"nilai":"84","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":921}',
+            ),
+            196 => 
+            array (
+                'id' => 1209,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":186,"kriteria_id":4,"nilai":"78","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":922}',
+            ),
+            197 => 
+            array (
+                'id' => 1210,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":186,"kriteria_id":5,"nilai":"80","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":923}',
+            ),
+            198 => 
+            array (
+                'id' => 1211,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040027","nama":"Bimbi Tritama","import_id":6,"slug":"bimbi-tritama","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":187}',
+            ),
+            199 => 
+            array (
+                'id' => 1212,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":187,"kriteria_id":6,"nilai":"68","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":924}',
+            ),
+            200 => 
+            array (
+                'id' => 1213,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":187,"kriteria_id":2,"nilai":"99","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":925}',
+            ),
+            201 => 
+            array (
+                'id' => 1214,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":187,"kriteria_id":3,"nilai":"84","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":926}',
+            ),
+            202 => 
+            array (
+                'id' => 1215,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":187,"kriteria_id":4,"nilai":"84","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":927}',
+            ),
+            203 => 
+            array (
+                'id' => 1216,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":187,"kriteria_id":5,"nilai":"69","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":928}',
+            ),
+            204 => 
+            array (
+                'id' => 1217,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040036","nama":"Aprilia Wulan Sari","import_id":6,"slug":"aprilia-wulan-sari","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":188}',
+            ),
+            205 => 
+            array (
+                'id' => 1218,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":188,"kriteria_id":6,"nilai":"74","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":929}',
+            ),
+            206 => 
+            array (
+                'id' => 1219,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":188,"kriteria_id":2,"nilai":"63","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":930}',
+            ),
+            207 => 
+            array (
+                'id' => 1220,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":188,"kriteria_id":3,"nilai":"87","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":931}',
+            ),
+            208 => 
+            array (
+                'id' => 1221,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":188,"kriteria_id":4,"nilai":"95","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":932}',
+            ),
+            209 => 
+            array (
+                'id' => 1222,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":188,"kriteria_id":5,"nilai":"63","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":933}',
+            ),
+            210 => 
+            array (
+                'id' => 1223,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040073","nama":"Iqbal Hadiansyah","import_id":6,"slug":"iqbal-hadiansyah","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":189}',
+            ),
+            211 => 
+            array (
+                'id' => 1224,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":189,"kriteria_id":6,"nilai":"70","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":934}',
+            ),
+            212 => 
+            array (
+                'id' => 1225,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":189,"kriteria_id":2,"nilai":"91","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":935}',
+            ),
+            213 => 
+            array (
+                'id' => 1226,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":189,"kriteria_id":3,"nilai":"79","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":936}',
+            ),
+            214 => 
+            array (
+                'id' => 1227,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":189,"kriteria_id":4,"nilai":"70","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":937}',
+            ),
+            215 => 
+            array (
+                'id' => 1228,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":189,"kriteria_id":5,"nilai":"95","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":938}',
+            ),
+            216 => 
+            array (
+                'id' => 1229,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040100","nama":"Aldi Nurfa Pratama","import_id":6,"slug":"aldi-nurfa-pratama","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":190}',
+            ),
+            217 => 
+            array (
+                'id' => 1230,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":190,"kriteria_id":6,"nilai":"85","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":939}',
+            ),
+            218 => 
+            array (
+                'id' => 1231,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":190,"kriteria_id":2,"nilai":"59","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":940}',
+            ),
+            219 => 
+            array (
+                'id' => 1232,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":190,"kriteria_id":3,"nilai":"70","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":941}',
+            ),
+            220 => 
+            array (
+                'id' => 1233,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":190,"kriteria_id":4,"nilai":"61","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":942}',
+            ),
+            221 => 
+            array (
+                'id' => 1234,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":190,"kriteria_id":5,"nilai":"72","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":943}',
+            ),
+            222 => 
+            array (
+                'id' => 1235,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040167","nama":"Santi Febrianti","import_id":6,"slug":"santi-febrianti","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":191}',
+            ),
+            223 => 
+            array (
+                'id' => 1236,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":191,"kriteria_id":6,"nilai":"98","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":944}',
+            ),
+            224 => 
+            array (
+                'id' => 1237,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":191,"kriteria_id":2,"nilai":"57","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":945}',
+            ),
+            225 => 
+            array (
+                'id' => 1238,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":191,"kriteria_id":3,"nilai":"65","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":946}',
+            ),
+            226 => 
+            array (
+                'id' => 1239,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":191,"kriteria_id":4,"nilai":"58","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":947}',
+            ),
+            227 => 
+            array (
+                'id' => 1240,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":191,"kriteria_id":5,"nilai":"88","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":948}',
+            ),
+            228 => 
+            array (
+                'id' => 1241,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040174","nama":"Dara Atria Ferliandini","import_id":6,"slug":"dara-atria-ferliandini","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":192}',
+            ),
+            229 => 
+            array (
+                'id' => 1242,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":192,"kriteria_id":6,"nilai":"63","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":949}',
+            ),
+            230 => 
+            array (
+                'id' => 1243,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":192,"kriteria_id":2,"nilai":"73","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":950}',
+            ),
+            231 => 
+            array (
+                'id' => 1244,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":192,"kriteria_id":3,"nilai":"72","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":951}',
+            ),
+            232 => 
+            array (
+                'id' => 1245,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":192,"kriteria_id":4,"nilai":"76","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":952}',
+            ),
+            233 => 
+            array (
+                'id' => 1246,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":192,"kriteria_id":5,"nilai":"98","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":953}',
+            ),
+            234 => 
+            array (
+                'id' => 1247,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040160","nama":"Luki Rahmat","import_id":6,"slug":"luki-rahmat","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":193}',
+            ),
+            235 => 
+            array (
+                'id' => 1248,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":193,"kriteria_id":6,"nilai":"65","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":954}',
+            ),
+            236 => 
+            array (
+                'id' => 1249,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":193,"kriteria_id":2,"nilai":"100","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":955}',
+            ),
+            237 => 
+            array (
+                'id' => 1250,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":193,"kriteria_id":3,"nilai":"90","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":956}',
+            ),
+            238 => 
+            array (
+                'id' => 1251,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":193,"kriteria_id":4,"nilai":"91","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":957}',
+            ),
+            239 => 
+            array (
+                'id' => 1252,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":193,"kriteria_id":5,"nilai":"69","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":958}',
+            ),
+            240 => 
+            array (
+                'id' => 1253,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040103","nama":"Alvina Damayanti","import_id":6,"slug":"alvina-damayanti","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":194}',
+            ),
+            241 => 
+            array (
+                'id' => 1254,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":194,"kriteria_id":6,"nilai":"93","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":959}',
+            ),
+            242 => 
+            array (
+                'id' => 1255,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":194,"kriteria_id":2,"nilai":"74","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":960}',
+            ),
+            243 => 
+            array (
+                'id' => 1256,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":194,"kriteria_id":3,"nilai":"96","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":961}',
+            ),
+            244 => 
+            array (
+                'id' => 1257,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":194,"kriteria_id":4,"nilai":"93","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":962}',
+            ),
+            245 => 
+            array (
+                'id' => 1258,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":194,"kriteria_id":5,"nilai":"88","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":963}',
+            ),
+            246 => 
+            array (
+                'id' => 1259,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040127","nama":"Dapa Raihan Fratama","import_id":6,"slug":"dapa-raihan-fratama","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":195}',
+            ),
+            247 => 
+            array (
+                'id' => 1260,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":195,"kriteria_id":6,"nilai":"80","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":964}',
+            ),
+            248 => 
+            array (
+                'id' => 1261,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":195,"kriteria_id":2,"nilai":"85","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":965}',
+            ),
+            249 => 
+            array (
+                'id' => 1262,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":195,"kriteria_id":3,"nilai":"98","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":966}',
+            ),
+            250 => 
+            array (
+                'id' => 1263,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":195,"kriteria_id":4,"nilai":"70","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":967}',
+            ),
+            251 => 
+            array (
+                'id' => 1264,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":195,"kriteria_id":5,"nilai":"54","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":968}',
+            ),
+            252 => 
+            array (
+                'id' => 1265,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040030","nama":"Muhammad Haqi Ishlahi","import_id":6,"slug":"muhammad-haqi-ishlahi","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":196}',
+            ),
+            253 => 
+            array (
+                'id' => 1266,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":196,"kriteria_id":6,"nilai":"81","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":969}',
+            ),
+            254 => 
+            array (
+                'id' => 1267,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":196,"kriteria_id":2,"nilai":"74","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":970}',
+            ),
+            255 => 
+            array (
+                'id' => 1268,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":196,"kriteria_id":3,"nilai":"68","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":971}',
+            ),
+            256 => 
+            array (
+                'id' => 1269,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:39',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":196,"kriteria_id":4,"nilai":"69","updated_at":"2024-08-03T13:54:39.000000Z","created_at":"2024-08-03T13:54:39.000000Z","id":972}',
+            ),
+            257 => 
+            array (
+                'id' => 1270,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":196,"kriteria_id":5,"nilai":"90","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":973}',
+            ),
+            258 => 
+            array (
+                'id' => 1271,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040148","nama":"Muthia Maghfira","import_id":6,"slug":"muthia-maghfira","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":197}',
+            ),
+            259 => 
+            array (
+                'id' => 1272,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":197,"kriteria_id":6,"nilai":"90","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":974}',
+            ),
+            260 => 
+            array (
+                'id' => 1273,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":197,"kriteria_id":2,"nilai":"59","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":975}',
+            ),
+            261 => 
+            array (
+                'id' => 1274,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":197,"kriteria_id":3,"nilai":"95","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":976}',
+            ),
+            262 => 
+            array (
+                'id' => 1275,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":197,"kriteria_id":4,"nilai":"59","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":977}',
+            ),
+            263 => 
+            array (
+                'id' => 1276,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":197,"kriteria_id":5,"nilai":"62","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":978}',
+            ),
+            264 => 
+            array (
+                'id' => 1277,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040094","nama":"Rifky Maulana Darmawan","import_id":6,"slug":"rifky-maulana-darmawan","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":198}',
+            ),
+            265 => 
+            array (
+                'id' => 1278,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":198,"kriteria_id":6,"nilai":"95","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":979}',
+            ),
+            266 => 
+            array (
+                'id' => 1279,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":198,"kriteria_id":2,"nilai":"98","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":980}',
+            ),
+            267 => 
+            array (
+                'id' => 1280,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":198,"kriteria_id":3,"nilai":"80","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":981}',
+            ),
+            268 => 
+            array (
+                'id' => 1281,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":198,"kriteria_id":4,"nilai":"59","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":982}',
+            ),
+            269 => 
+            array (
+                'id' => 1282,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":198,"kriteria_id":5,"nilai":"77","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":983}',
+            ),
+            270 => 
+            array (
+                'id' => 1283,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040115","nama":"Salma Destriyani Asria Putri","import_id":6,"slug":"salma-destriyani-asria-putri","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":199}',
+            ),
+            271 => 
+            array (
+                'id' => 1284,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":199,"kriteria_id":6,"nilai":"76","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":984}',
+            ),
+            272 => 
+            array (
+                'id' => 1285,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":199,"kriteria_id":2,"nilai":"61","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":985}',
+            ),
+            273 => 
+            array (
+                'id' => 1286,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":199,"kriteria_id":3,"nilai":"63","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":986}',
+            ),
+            274 => 
+            array (
+                'id' => 1287,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":199,"kriteria_id":4,"nilai":"57","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":987}',
+            ),
+            275 => 
+            array (
+                'id' => 1288,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":199,"kriteria_id":5,"nilai":"91","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":988}',
+            ),
+            276 => 
+            array (
+                'id' => 1289,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040104","nama":"Sang Kala Aji","import_id":6,"slug":"sang-kala-aji","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":200}',
+            ),
+            277 => 
+            array (
+                'id' => 1290,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":200,"kriteria_id":6,"nilai":"63","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":989}',
+            ),
+            278 => 
+            array (
+                'id' => 1291,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":200,"kriteria_id":2,"nilai":"87","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":990}',
+            ),
+            279 => 
+            array (
+                'id' => 1292,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":200,"kriteria_id":3,"nilai":"89","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":991}',
+            ),
+            280 => 
+            array (
+                'id' => 1293,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":200,"kriteria_id":4,"nilai":"57","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":992}',
+            ),
+            281 => 
+            array (
+                'id' => 1294,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":200,"kriteria_id":5,"nilai":"81","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":993}',
+            ),
+            282 => 
+            array (
+                'id' => 1295,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040165","nama":"Sofa Marwah Almunawaroh","import_id":6,"slug":"sofa-marwah-almunawaroh","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":201}',
+            ),
+            283 => 
+            array (
+                'id' => 1296,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":201,"kriteria_id":6,"nilai":"85","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":994}',
+            ),
+            284 => 
+            array (
+                'id' => 1297,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":201,"kriteria_id":2,"nilai":"73","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":995}',
+            ),
+            285 => 
+            array (
+                'id' => 1298,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":201,"kriteria_id":3,"nilai":"54","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":996}',
+            ),
+            286 => 
+            array (
+                'id' => 1299,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":201,"kriteria_id":4,"nilai":"57","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":997}',
+            ),
+            287 => 
+            array (
+                'id' => 1300,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":201,"kriteria_id":5,"nilai":"56","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":998}',
+            ),
+            288 => 
+            array (
+                'id' => 1301,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040157","nama":"Ai Nurul Wardatul Suroya","import_id":6,"slug":"ai-nurul-wardatul-suroya","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":202}',
+            ),
+            289 => 
+            array (
+                'id' => 1302,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":202,"kriteria_id":6,"nilai":"68","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":999}',
+            ),
+            290 => 
+            array (
+                'id' => 1303,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":202,"kriteria_id":2,"nilai":"60","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":1000}',
+            ),
+            291 => 
+            array (
+                'id' => 1304,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":202,"kriteria_id":3,"nilai":"83","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":1001}',
+            ),
+            292 => 
+            array (
+                'id' => 1305,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":202,"kriteria_id":4,"nilai":"63","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":1002}',
+            ),
+            293 => 
+            array (
+                'id' => 1306,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":202,"kriteria_id":5,"nilai":"82","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":1003}',
+            ),
+            294 => 
+            array (
+                'id' => 1307,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif',
+                'log_type' => 'create',
+                'data' => '{"nopeserta":"CDGM0040070","nama":"Afina Nur Lathifah","import_id":6,"slug":"afina-nur-lathifah","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":203}',
+            ),
+            295 => 
+            array (
+                'id' => 1308,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":203,"kriteria_id":6,"nilai":"73","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":1004}',
+            ),
+            296 => 
+            array (
+                'id' => 1309,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":203,"kriteria_id":2,"nilai":"67","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":1005}',
+            ),
+            297 => 
+            array (
+                'id' => 1310,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":203,"kriteria_id":3,"nilai":"75","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":1006}',
+            ),
+            298 => 
+            array (
+                'id' => 1311,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":203,"kriteria_id":4,"nilai":"90","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":1007}',
+            ),
+            299 => 
+            array (
+                'id' => 1312,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"alternatif_id":203,"kriteria_id":5,"nilai":"98","updated_at":"2024-08-03T13:54:40.000000Z","created_at":"2024-08-03T13:54:40.000000Z","id":1008}',
+            ),
+            300 => 
+            array (
+                'id' => 1313,
+                'user_id' => 2,
+                'log_date' => '2024-08-03 20:54:40',
+                'table_name' => 'import_alternatif',
+                'log_type' => 'edit',
+                'data' => '{"nama":"data sidang","slug":"data-sidang","updated_at":"2024-08-03 20:54:39","created_at":"2024-08-03 20:54:39","id":6}',
+            ),
         ));
         
         
