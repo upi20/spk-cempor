@@ -94,9 +94,11 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
 
     <!-- Dark mode-->
     <script>
-        const templateHasDarkMode = localStorage.getItem('dark-mode') == 'true';
-        const templateTheme = localStorage.getItem('theme');
-        if (localStorage.getItem('dark-mode') !== null) {
+        // const templateHasDarkMode = localStorage.getItem('dark-mode') == 'true';
+        const templateHasDarkMode = true;
+        // const templateTheme = localStorage.getItem('theme');
+        const templateTheme = 'dark-theme';
+        if (templateTheme !== null) {
             if (templateHasDarkMode) {
                 document.querySelector('html').setAttribute('class', 'dark-theme');
             } else {
@@ -126,7 +128,7 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
                             <div class="card-body">
                                 <div class="p-4">
                                     <div class="mb-3 text-center">
-                                        <img src="{{ asset(setting_get(set_admin('app.foto_dark_landscape_mode'))) }}"
+                                        <img src="{{ asset(setting_get(set_admin('app.foto_light_landscape_mode'))) }}"
                                             style="max-height: 65px;" alt="Logo" />
                                     </div>
                                     <div class="form-body">

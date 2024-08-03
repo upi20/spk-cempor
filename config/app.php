@@ -208,19 +208,19 @@ return [
     // assets admin
     'admin_assets_list' => [
         'sash' => [
-            'https://assets.iseplutpi.site/sash/assets/',
+            'https://assets.cemporbdg.site/sash/assets/',
             'http://localhost:8080/aplikasi/assets/sash/assets/',
         ],
         'rockeradmin' => [
-            'https://assets.iseplutpi.site/rockeradmin/vertical/',
+            'https://assets.cemporbdg.site/rockeradmin/vertical/',
             'http://localhost:8080/aplikasi/assets/rockeradmin/vertical/',
         ],
         'sbadmin' => [
-            'https://assets.iseplutpi.site/sbadmin/',
+            'https://assets.cemporbdg.site/sbadmin/',
             'http://localhost:8080/aplikasi/assets/sbadmin/',
         ],
         'adminlte3' => [
-            'https://assets.iseplutpi.site/adminlte3/',
+            'https://assets.cemporbdg.site/adminlte3/',
             'http://localhost:8080/aplikasi/assets/adminlte3/',
         ],
     ],

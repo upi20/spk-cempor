@@ -99,9 +99,11 @@ $notifikasi = beTopNotification();
 
     <!-- Dark mode-->
     <script>
-        const templateHasDarkMode = localStorage.getItem('dark-mode') == 'true';
-        const templateTheme = localStorage.getItem('theme');
-        if (localStorage.getItem('dark-mode') !== null) {
+        // const templateHasDarkMode = localStorage.getItem('dark-mode') == 'true';
+        const templateHasDarkMode = true;
+        // const templateTheme = localStorage.getItem('theme');
+        const templateTheme = 'dark-theme';
+        if (templateTheme !== null) {
             if (templateHasDarkMode) {
                 document.querySelector('html').setAttribute('class', 'dark-theme');
             } else {
@@ -118,6 +120,11 @@ $notifikasi = beTopNotification();
         {!! $meta->value !!}
     @endforeach
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <style>
+        html.dark-theme .topbar,html.dark-theme .sidebar-wrapper .sidebar-header,html.dark-theme .user-box{
+            border: none;
+        }
+    </style>
 </head>
 
 <body>

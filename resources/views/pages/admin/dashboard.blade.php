@@ -1,7 +1,7 @@
 @extends('layouts.admin.rockeradmin.master')
 
 @section('content')
-    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
+    {{-- <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
         <div class="col">
             <a href="{{ route('admin.alternatif') }}">
                 <div class="card radius-10 border-start border-0 border-4 border-info">
@@ -35,7 +35,7 @@
                 </div>
             </a>
         </div>
-    </div>
+    </div> --}}
 
     <div class="card mt-3">
         <div class="card-body">
