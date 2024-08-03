@@ -40,10 +40,10 @@ class PMenuTableSeeder extends Seeder
                 'icon' => 'fas fa-list',
                 'route' => 'admin.user',
                 'sequence' => 15,
-                'active' => 1,
+                'active' => 0,
                 'type' => 1,
                 'created_at' => '2022-08-05 23:50:28',
-                'updated_at' => '2023-07-01 23:02:01',
+                'updated_at' => '2024-08-03 19:43:02',
             ),
             2 => 
             array (
@@ -105,10 +105,10 @@ class PMenuTableSeeder extends Seeder
                 'icon' => 'fas fa-user',
                 'route' => 'admin.profile',
                 'sequence' => 17,
-                'active' => 1,
+                'active' => 0,
                 'type' => 1,
                 'created_at' => '2022-08-05 23:50:28',
-                'updated_at' => '2023-07-01 23:02:01',
+                'updated_at' => '2024-08-03 19:43:11',
             ),
             7 => 
             array (
@@ -183,10 +183,10 @@ class PMenuTableSeeder extends Seeder
                 'icon' => 'fas fa-upload',
                 'route' => NULL,
                 'sequence' => 7,
-                'active' => 1,
+                'active' => 0,
                 'type' => 1,
                 'created_at' => '2023-05-16 18:10:19',
-                'updated_at' => '2023-07-01 23:02:01',
+                'updated_at' => '2024-08-03 20:34:03',
             ),
             13 => 
             array (
