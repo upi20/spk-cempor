@@ -178,7 +178,7 @@
                     <img src="" class="img-fluid" id="modal-image-element" alt="Icon Pendaftaran">
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-light" data-bs-dismiss="modal">
+                    <button class="btn btn-light" data-bs-dismiss="modal" data-dismiss="modal">
                         <i class="fas fa-times"></i>
                         Close
                     </button>
@@ -219,7 +219,7 @@
                     <button type="submit" class="btn btn-primary" form="meta_list_form">
                         <li class="fas fa-save mr-1"></li> Simpan
                     </button>
-                    <button class="btn btn-light" data-bs-dismiss="modal">
+                    <button class="btn btn-light" data-bs-dismiss="modal" data-dismiss="modal">
                         <i class="fas fa-times"></i>
                         Close
                     </button>

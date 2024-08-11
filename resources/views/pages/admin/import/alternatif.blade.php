@@ -45,8 +45,8 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title"></h6>
-                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal">
-                        <span aria-hidden="true"></span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
@@ -72,7 +72,7 @@
                     <button type="submit" class="btn btn-primary" id="btn-save" form="MainForm">
                         <li class="fas fa-save mr-1"></li> Simpan
                     </button>
-                    <button class="btn btn-light" data-bs-dismiss="modal">
+                    <button class="btn btn-light" data-bs-dismiss="modal" data-dismiss="modal">
                         <i class="fas fa-times"></i>
                         Tutup
                     </button>
@@ -93,7 +93,7 @@
                     <img src="" class="img-fluid" id="modal-image-element" alt="Icon Pendaftaran">
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-light" data-bs-dismiss="modal">
+                    <button class="btn btn-light" data-bs-dismiss="modal" data-dismiss="modal">
                         <i class="fas fa-times"></i>
                         Close
                     </button>
