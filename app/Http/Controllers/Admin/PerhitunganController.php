@@ -109,7 +109,7 @@ class PerhitunganController extends Controller
 
         $hitung[$index++] = $datatable;
 
-        // 5. 20 lolos
+        // 5. 30 lolos
         $kurnagi = [];
         foreach ($sorts as $k => $v) {
             if ($k > 19) continue;
@@ -191,7 +191,7 @@ class PerhitunganController extends Controller
         $kurnagi = [];
         foreach ($results as $k => $v) {
             $kurnagi[] = $v;
-            if ($k > 20) continue;
+            if ($k > 30) continue;
         }
 
         $new['body'] = $kurnagi;
