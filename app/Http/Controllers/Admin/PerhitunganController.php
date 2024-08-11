@@ -112,7 +112,7 @@ class PerhitunganController extends Controller
         // 5. 30 lolos
         $kurnagi = [];
         foreach ($sorts as $k => $v) {
-            if ($k > 19) continue;
+            if ($k > 29) continue;
             $kurnagi[] = $v;
         }
 
