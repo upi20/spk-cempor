@@ -22,7 +22,7 @@
                     @if ($can_insert)
                         <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
                             data-bs-toggle="modal" href="#modal-default" onclick="addFunc()" data-target="#modal-default">
-                            <i class="fas fa-plus"></i> Tambah
+                            <i class="fas fa-plus"></i> Tambah Kriteria
                         </button>
                     @endif
                 </div>

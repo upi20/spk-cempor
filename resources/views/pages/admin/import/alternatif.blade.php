@@ -21,7 +21,7 @@
                         <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
                             data-bs-toggle="modal" href="#modal-default" onclick="addFunc()" data-target="#modal-default"
                             data-toggle="tooltip" title="Tambah Data">
-                            <i class="fas fa-plus"></i> Tambah
+                            <i class="fas fa-plus"></i> Tambah Alternatif
                         </button>
                     @endif
                 </div>
@@ -30,7 +30,7 @@
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Nama</th>
+                        <th>Nama Alternatif</th>
                         <th>File</th>
                         {!! $can_delete || $can_update ? '<th>Aksi</th>' : '' !!}
                     </tr>
