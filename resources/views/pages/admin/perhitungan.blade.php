@@ -82,7 +82,7 @@
                 <tfoot>
                     <tr>
                         <th></th>
-                        <th>MAX</th>
+                        <th>Nilai Tertinggi Dari Kriteria</th>
                         @foreach ($datas['maxs'] as $max)
                             <th>
                                 {{ $max }}
