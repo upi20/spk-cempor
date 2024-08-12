@@ -36,7 +36,7 @@
                         </th>
                         <th>No</th>
                         <th>Kode</th>
-                        <th>Nama</th>
+                        <th>Kriteria</th>
                         <th>Bobot</th>
                         <th>Aksi</th>
                     </tr>
@@ -62,7 +62,7 @@
                             <input type="text" class="form-control" id="kode" name="kode" required />
                         </div>
                         <div class="form-group">
-                            <label for="nama">Nama</label>
+                            <label for="nama">Nama Kriteria</label>
                             <input type="text" class="form-control" id="nama" name="nama" required />
                         </div>
                         <div class="form-group">
