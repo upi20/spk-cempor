@@ -138,7 +138,7 @@
     <div class="card card-primary card-outline mt-4">
         <div class="card-header">
             <h6 class="card-title">3. Dikali Bobot Kriteria</h6>
-            <small>Kemudian setelah dibagi nilai tertinggi dikali bobot kriterianya.</small>
+            <small>Kemudian setelah dibagi nilai dikali bobot kriterianya.</small>
         </div>
         <div class="card-body">
             <table class="table table-striped table-hover w-100 datatable">
