@@ -47,7 +47,7 @@
     <div class="card card-primary card-outline mt-4">
         <div class="card-header">
             <h6 class="card-title">1. Data Alternatif</h6>
-            <small>Menyiapkan data alternatif</small>
+            <small>Menyiapkan data alternatif kemudian ambil nilai tertinggi nya untuk tahapan selanjutnya</small>
         </div>
         <div class="card-body">
             <table class="table table-striped table-hover w-100 datatable">
