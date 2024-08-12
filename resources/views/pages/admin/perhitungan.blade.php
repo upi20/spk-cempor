@@ -98,7 +98,7 @@
     <div class="card card-primary card-outline mt-4">
         <div class="card-header">
             <h6 class="card-title">2. Dibagi nilai tertinggi</h6>
-            <small>Data setiap dari setiap alternatif dibagi dengan nilai tertinggi dari kriteria nya masing-masing</small>
+            <small>Data setiap alternatif dibagi dengan nilai tertinggi dari kriteria nya masing-masing</small>
         </div>
         <div class="card-body">
             <table class="table table-striped table-hover w-100 datatable">
