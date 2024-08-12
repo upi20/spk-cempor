@@ -20,9 +20,7 @@
     @endphp
     <div class="card card-primary card-outline mt-4">
         <div class="card-header">
-            <div class="d-flex justify-content-between w-100">
-                <h6 class="card-title">Tabel alternatif</h6>
-            </div>
+            <h6 class="card-title">Tabel alternatif</h6>
         </div>
         <div class="card-body">
             <table class="table table-bordered">
@@ -48,10 +46,8 @@
 
     <div class="card card-primary card-outline mt-4">
         <div class="card-header">
-            <div class="d-flex justify-content-between w-100">
-                <h6 class="card-title">1. Data Alternatif</h6>
-                <small>Menyiapkan data alternatif</small>
-            </div>
+            <h6 class="card-title">1. Data Alternatif</h6>
+            <small>Menyiapkan data alternatif</small>
         </div>
         <div class="card-body">
             <table class="table table-striped table-hover w-100 datatable">
@@ -101,10 +97,8 @@
     @php $datas = $saw[$index++]; @endphp
     <div class="card card-primary card-outline mt-4">
         <div class="card-header">
-            <div class="d-flex justify-content-between w-100">
-                <h6 class="card-title">2. Dibagi nilai tertinggi</h6>
-                <small>Data setiap dari setiap alternatif dibagi dengan nilai tertinggi dari kriteria nya masing-masing</small>
-            </div>
+            <h6 class="card-title">2. Dibagi nilai tertinggi</h6>
+            <small>Data setiap dari setiap alternatif dibagi dengan nilai tertinggi dari kriteria nya masing-masing</small>
         </div>
         <div class="card-body">
             <table class="table table-striped table-hover w-100 datatable">
@@ -143,10 +137,8 @@
     @php $datas = $saw[$index++]; @endphp
     <div class="card card-primary card-outline mt-4">
         <div class="card-header">
-            <div class="d-flex justify-content-between w-100">
-                <h6 class="card-title">3. Dikali Bobot Kriteria</h6>
-                <small>Kemudian setelah dibagi nilai tertinggi dikali bobot kriterianya.</small>
-            </div>
+            <h6 class="card-title">3. Dikali Bobot Kriteria</h6>
+            <small>Kemudian setelah dibagi nilai tertinggi dikali bobot kriterianya.</small>
         </div>
         <div class="card-body">
             <table class="table table-striped table-hover w-100 datatable">
@@ -232,6 +224,7 @@
     <div class="card card-primary card-outline mt-4">
         <div class="card-header">
             <h6 class="card-title">5. Yang lolos maksimal 30 peserta</h6>
+            <small>Ambil 30 peserta dengan nilai tertinggi.</small>
         </div>
         <div class="card-body">
             <table class="table table-striped table-hover w-100 datatable">
